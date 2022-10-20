@@ -1,0 +1,47 @@
+
+.body-container {
+    display: flex;
+}
+
+.header-contents-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contents-primary-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-contents-secondy-cards {
+    display: flex;
+}
+
+.secondy-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-contents-tertiary-cards {
+    display: flex;
+
+}
+
+.tertiary-cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-contents .container {
+    display: flex;
+    justify-content: space-between;
+}
