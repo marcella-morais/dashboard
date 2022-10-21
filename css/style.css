@@ -37,7 +37,7 @@
     padding: 8px 20px;
     margin: 10px 0;
     border-radius: 10px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .header-contents-link:hover {
@@ -54,6 +54,12 @@
 
 .main-contents a {
     text-decoration: none;
+    transition: 0.2s;
+}
+
+.main-contents a:hover {
+    background: #fbfbfb;
+    box-shadow: 0 0 10px #fff;
 }
 
 .main-contents .container {
@@ -63,21 +69,22 @@
     box-shadow: inset 7px 0 10px rgba(0, 0, 0, 0.534);
 }
 
-.primary-cards {
-    padding: 20px;
-    margin: 0 10px;
-    background: #f0e6e6;
-    width: 30%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #0000004a;
-}
-
 .main-contents-title {
     color: #fff;
     text-shadow: 0 0 10px #000;
+    font-weight: 400;
     padding: 10px;
     margin-bottom: 35px;
     width: 200px;
+}
+
+.primary-cards {
+    padding: 20px;
+    margin: 0 10px;
+    background: #f6f2f2;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0000004a;
 }
 
 .primary-cards-img {
@@ -95,7 +102,7 @@
 .secondy-cards {
     padding: 30px;
     margin: 40px 10px;
-    background: #f0e6e6;
+    background: #f6f2f2;
     width: 50%;
     border-radius: 5px;
     box-shadow: 0 0 10px #0000004a;
@@ -125,7 +132,7 @@
 }
 
 .tertiary-cards {
-    background: #f0e6e6;
+    background: #f6f2f2;
     padding: 20px;
     margin: 0 10px;
     width: 50%;
@@ -136,6 +143,14 @@
 .tertiary-cards-img {
     width: 100%;
     margin: 0 auto 20px auto;
+}
+
+.tertiary-cards-title {
+    color: #949393;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px 0;
 }
 
 .tertiary-cards-text {
